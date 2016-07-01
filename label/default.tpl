@@ -17,6 +17,9 @@
 						<p class="saleprice">{{ Label.MetaData.price|money|htmlparsemoney|raw }}</p>
 						{% if Label.MetaData.msrp %}
 						<p class="msrp">MSRP {{ Label.MetaData.msrp|money }}</p>
+						<p class="saleprice">{{ Label.MetaData.price|money|htmlparsemoney|raw }}</p>
+						{% if Label.MetaData.msrp %}
+						<p class="msrp">MSRP {{ Label.MetaData.msrp|money }}</p>
 						{% endif %}
 					</div>
 					{% endif %}
