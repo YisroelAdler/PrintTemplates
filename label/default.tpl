@@ -21,6 +21,7 @@
 					</div>
 					{% endif %}
 					<p class="description">{{ Label.Item.description|strreplace('_',' ') }}</p>
+					<p class="description">{{ Label.Item.description|strreplace('_',' ') }}</p>
 				</article>
 				<footer class="barcode">
 					<img class="ean8" src="/barcode.php?type=label&amp;number={{ Label.Item.systemSku }}&amp;ean8=1&amp;noframe=1">
